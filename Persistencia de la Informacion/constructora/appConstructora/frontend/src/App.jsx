@@ -13,8 +13,8 @@ const NOMBRE = 'Habita Constructora';
 const FOTO = 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800';
 const ESTADOS = ['EN_PLANOS', 'EN_CONSTRUCCION', 'ENTREGA_INMEDIATA', 'FINALIZADO'];
 const TIPOS = ['CASA', 'APARTAMENTO', 'LOTE'];
-const FOTO_VIVIENDAS = 'https://media.gettyimages.com/id/1416869312/es/foto/bienvenido-a-nuestro-hogar.jpg?s=612x612&w=0&k=20&c=40L48_PUF0bZVdkxmAqTye5yzIjQ3QSiK7f4RyoyhOw=';
-const FOTO_PROYECTOS = 'https://media.gettyimages.com/id/1453502204/es/foto/suburban-home-at-sunset-with-lawn-and-garden-visible.jpg?s=612x612&w=0&k=20&c=FCR16NVOE090ww6wvnzmEbQpWV0w1CIG2Ro4lABaLr0=';
+const FOTO_VIVIENDAS = 'https://casasinhaus.com/wp-content/uploads/2025/02/vivienda-prefabricada-mallorca-1150x646.jpg';
+const FOTO_PROYECTOS = 'https://casasinhaus.com/wp-content/uploads/2025/02/casa-prefabricada-lujo-menorca-1150x646.jpg';
 
 const pesos = (n) => new Intl.NumberFormat('es-CO', { style: 'currency', currency: 'COP', maximumFractionDigits: 0 }).format(n);
 const estado = (e) => ({ EN_PLANOS: 'En planos', EN_CONSTRUCCION: 'En construcción', ENTREGA_INMEDIATA: 'Entrega inmediata', FINALIZADO: 'Finalizado' }[e] || e);
